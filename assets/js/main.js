@@ -107,8 +107,6 @@ function createOrder(data, callback) {
         .then(callback)
 }
 
-
-
 function renderFormSubmit(name, img, price) {
     const formHtml = `
     <div class="form">

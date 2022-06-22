@@ -45,28 +45,28 @@ const products = [
         id: 7,
         image: "./assets/image/binhnuoc4.jpg",
         description: "",
-        price: "139.000",
+        price: "20.000",
         name: "Bình đựng nước màu trắng"
     },
     {
         id: 8,
         image: "./assets/image/binhnuoc3.jpg",
         description: "",
-        price: "139.000",
+        price: "20.000",
         name: "Bình đựng nước màu hồng"
     },
     {
         id: 9,
         image: "./assets/image/tulanh1.jpg",
         description: "",
-        price: "299.000",
+        price: "239.000",
         name: "Tủ lạnh mini màu vàng"
     },
     {
         id: 10,
         image: "./assets/image/tulanh3.jpg",
         description: "",
-        price: "399.000",
+        price: "239.000",
         name: "Tủ lạnh mini màu cam"
     },
     
