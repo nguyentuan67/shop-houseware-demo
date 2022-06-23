@@ -68,7 +68,10 @@ buyProductBtns.forEach(buyProductBtn => {
             let product = document.getElementById('name-product').innerText
             let phone = document.getElementById('phone-number').value
             let quantity = document.getElementById('quantity').value
-
+            
+            const d = new Date()
+            let date = `${d.getHours()}:${d.getMinutes()} ${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`
+        
             if( name == "" ||  address == "" || phone == "" || quantity == "") {
                 alert("Vui lòng nhập đầy đủ thông tin")
             } else {
@@ -77,7 +80,8 @@ buyProductBtns.forEach(buyProductBtn => {
                     address: address,
                     phone: phone,
                     product: product,
-                    quantity: quantity
+                    quantity: quantity,
+                    date: date,
                 }
                 createOrder(formOrder)
                 alert("Thành công! Đang chờ xác nhận.")

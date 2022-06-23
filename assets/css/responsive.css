@@ -15,19 +15,7 @@
         display: none;
     }
 
-    .form-register--wrap {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-
-    .fake-img {
-        height: 300px;
-    }
     
-    .form-register__img {
-        width: 400px;
-        top: 300px;
-    }
 }
 
 /* tablet */
@@ -59,5 +47,39 @@
 @media (max-width: 739px) {
     .hide-on-mobile {
         display: none;
+    }
+
+    .product-item {
+        padding-left: 4px;
+        padding-right: 4px;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .form {
+        flex-direction: column;
+        min-width: 90vw;
+        height: 600px;
+    }
+
+    .form.open {
+        top: 10%;
+    }
+
+    .form-info {
+        flex: 0.5;
+        margin-right: 0;
+    }
+    
+    .form-wrapper  {
+        max-height: 400px;
+        padding-right: 6px;
+        flex: 0.5;
+    }
+
+    .cart-products {
+        max-width: 350px;
+        top: 40px;
+        right: -50%;
     }
 }

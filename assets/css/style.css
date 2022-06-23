@@ -60,14 +60,11 @@ html {
 }
 
 .header__logo {
-    width: 70px;
+    height: calc(var(--header-height) - 10px);
 }
 
 .logo__img {
-    width: 100%;
-}
-
-.header__nav {
+    height: 100%;
 }
 
 .header__nav__list {
@@ -115,7 +112,7 @@ html {
     position: absolute;
     top: 35px;
     right: -100%;
-    min-width: 400px;
+    width: 400px;
     min-height: 300px;
     border: 1px solid var(--text-color);
     padding: 6px 0px 20px 20px;
@@ -297,6 +294,8 @@ html {
 
 .product-wrap__name {
     font-size: 1.5rem;
+    line-height: 1.6rem;
+    height: 3.2rem;
     color: var(--text-color);
     font-weight: 500;
     margin-bottom: 5px;
@@ -383,6 +382,7 @@ html {
     opacity: 0;
     display: none;
     transition: all 0.4s linear;
+    overflow: auto;
 }
 
 .form.open {
